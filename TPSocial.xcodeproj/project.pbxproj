@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C0DD1C1FE2150300249DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD1B1FE2150300249DC3 /* AppDelegate.m */; };
+		30C0DD1F1FE2150300249DC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD1E1FE2150300249DC3 /* ViewController.m */; };
+		30C0DD221FE2150300249DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD201FE2150300249DC3 /* Main.storyboard */; };
+		30C0DD241FE2150300249DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD231FE2150300249DC3 /* Assets.xcassets */; };
+		30C0DD271FE2150300249DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD251FE2150300249DC3 /* LaunchScreen.storyboard */; };
+		30C0DD2A1FE2150300249DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD291FE2150300249DC3 /* main.m */; };
+		30C0DD341FE2150400249DC3 /* TPSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD331FE2150400249DC3 /* TPSocialTests.m */; };
+		30C0DD3F1FE2150400249DC3 /* TPSocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD3E1FE2150400249DC3 /* TPSocialUITests.m */; };
+		E3FC398F00E2511D940BCA85 /* Pods_TPSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35929C588B394322AEEDFDAB /* Pods_TPSocial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C0DD301FE2150400249DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C0DD0F1FE2150300249DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C0DD161FE2150300249DC3;
+			remoteInfo = TPSocial;
+		};
+		30C0DD3B1FE2150400249DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C0DD0F1FE2150300249DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C0DD161FE2150300249DC3;
+			remoteInfo = TPSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30C0DD171FE2150300249DC3 /* TPSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C0DD1A1FE2150300249DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30C0DD1B1FE2150300249DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30C0DD1D1FE2150300249DC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30C0DD1E1FE2150300249DC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30C0DD211FE2150300249DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30C0DD231FE2150300249DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30C0DD261FE2150300249DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30C0DD281FE2150300249DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C0DD291FE2150300249DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30C0DD2F1FE2150400249DC3 /* TPSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C0DD331FE2150400249DC3 /* TPSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSocialTests.m; sourceTree = "<group>"; };
+		30C0DD351FE2150400249DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C0DD3A1FE2150400249DC3 /* TPSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C0DD3E1FE2150400249DC3 /* TPSocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSocialUITests.m; sourceTree = "<group>"; };
+		30C0DD401FE2150400249DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35929C588B394322AEEDFDAB /* Pods_TPSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CE2B56DAFD6D1312D4A986 /* Pods-TPSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial.release.xcconfig"; sourceTree = "<group>"; };
+		8CA934449F25FA491B1979C3 /* Pods-TPSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C0DD141FE2150300249DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FC398F00E2511D940BCA85 /* Pods_TPSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD2C1FE2150400249DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD371FE2150400249DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E241841D396823FFDDBEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA934449F25FA491B1979C3 /* Pods-TPSocial.debug.xcconfig */,
+				66CE2B56DAFD6D1312D4A986 /* Pods-TPSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		30C0DD0E1FE2150300249DC3 = {
+			isa = PBXGroup;
+			children = (
+				30C0DD191FE2150300249DC3 /* TPSocial */,
+				30C0DD321FE2150400249DC3 /* TPSocialTests */,
+				30C0DD3D1FE2150400249DC3 /* TPSocialUITests */,
+				30C0DD181FE2150300249DC3 /* Products */,
+				20E241841D396823FFDDBEF5 /* Pods */,
+				AC56D0AA37CE2FE45D7A3DBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30C0DD181FE2150300249DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C0DD171FE2150300249DC3 /* TPSocial.app */,
+				30C0DD2F1FE2150400249DC3 /* TPSocialTests.xctest */,
+				30C0DD3A1FE2150400249DC3 /* TPSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C0DD191FE2150300249DC3 /* TPSocial */ = {
+			isa = PBXGroup;
+			children = (
+				30C0DD1A1FE2150300249DC3 /* AppDelegate.h */,
+				30C0DD1B1FE2150300249DC3 /* AppDelegate.m */,
+				30C0DD1D1FE2150300249DC3 /* ViewController.h */,
+				30C0DD1E1FE2150300249DC3 /* ViewController.m */,
+				30C0DD201FE2150300249DC3 /* Main.storyboard */,
+				30C0DD231FE2150300249DC3 /* Assets.xcassets */,
+				30C0DD251FE2150300249DC3 /* LaunchScreen.storyboard */,
+				30C0DD281FE2150300249DC3 /* Info.plist */,
+				30C0DD291FE2150300249DC3 /* main.m */,
+			);
+			path = TPSocial;
+			sourceTree = "<group>";
+		};
+		30C0DD321FE2150400249DC3 /* TPSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C0DD331FE2150400249DC3 /* TPSocialTests.m */,
+				30C0DD351FE2150400249DC3 /* Info.plist */,
+			);
+			path = TPSocialTests;
+			sourceTree = "<group>";
+		};
+		30C0DD3D1FE2150400249DC3 /* TPSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30C0DD3E1FE2150400249DC3 /* TPSocialUITests.m */,
+				30C0DD401FE2150400249DC3 /* Info.plist */,
+			);
+			path = TPSocialUITests;
+			sourceTree = "<group>";
+		};
+		AC56D0AA37CE2FE45D7A3DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35929C588B394322AEEDFDAB /* Pods_TPSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C0DD161FE2150300249DC3 /* TPSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C0DD431FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocial" */;
+			buildPhases = (
+				40EDAB7E2A34399F706604A0 /* [CP] Check Pods Manifest.lock */,
+				30C0DD131FE2150300249DC3 /* Sources */,
+				30C0DD141FE2150300249DC3 /* Frameworks */,
+				30C0DD151FE2150300249DC3 /* Resources */,
+				2D33639AE8916E57D9428261 /* [CP] Embed Pods Frameworks */,
+				87EDC9F5F6500990632B44E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPSocial;
+			productName = TPSocial;
+			productReference = 30C0DD171FE2150300249DC3 /* TPSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C0DD2E1FE2150400249DC3 /* TPSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C0DD461FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocialTests" */;
+			buildPhases = (
+				30C0DD2B1FE2150400249DC3 /* Sources */,
+				30C0DD2C1FE2150400249DC3 /* Frameworks */,
+				30C0DD2D1FE2150400249DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C0DD311FE2150400249DC3 /* PBXTargetDependency */,
+			);
+			name = TPSocialTests;
+			productName = TPSocialTests;
+			productReference = 30C0DD2F1FE2150400249DC3 /* TPSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30C0DD391FE2150400249DC3 /* TPSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C0DD491FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocialUITests" */;
+			buildPhases = (
+				30C0DD361FE2150400249DC3 /* Sources */,
+				30C0DD371FE2150400249DC3 /* Frameworks */,
+				30C0DD381FE2150400249DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C0DD3C1FE2150400249DC3 /* PBXTargetDependency */,
+			);
+			name = TPSocialUITests;
+			productName = TPSocialUITests;
+			productReference = 30C0DD3A1FE2150400249DC3 /* TPSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C0DD0F1FE2150300249DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Perfectcjh;
+				TargetAttributes = {
+					30C0DD161FE2150300249DC3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30C0DD2E1FE2150400249DC3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30C0DD161FE2150300249DC3;
+					};
+					30C0DD391FE2150400249DC3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30C0DD161FE2150300249DC3;
+					};
+				};
+			};
+			buildConfigurationList = 30C0DD121FE2150300249DC3 /* Build configuration list for PBXProject "TPSocial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C0DD0E1FE2150300249DC3;
+			productRefGroup = 30C0DD181FE2150300249DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C0DD161FE2150300249DC3 /* TPSocial */,
+				30C0DD2E1FE2150400249DC3 /* TPSocialTests */,
+				30C0DD391FE2150400249DC3 /* TPSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C0DD151FE2150300249DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C0DD271FE2150300249DC3 /* LaunchScreen.storyboard in Resources */,
+				30C0DD241FE2150300249DC3 /* Assets.xcassets in Resources */,
+				30C0DD221FE2150300249DC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD2D1FE2150400249DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD381FE2150400249DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D33639AE8916E57D9428261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40EDAB7E2A34399F706604A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87EDC9F5F6500990632B44E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial-resources.sh",
+				"${PODS_ROOT}/Alipay_SDK_iOS/Alipay/AlipaySDK.bundle",
+				"${PODS_ROOT}/WeiboSDK/libWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C0DD131FE2150300249DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C0DD1F1FE2150300249DC3 /* ViewController.m in Sources */,
+				30C0DD2A1FE2150300249DC3 /* main.m in Sources */,
+				30C0DD1C1FE2150300249DC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD2B1FE2150400249DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C0DD341FE2150400249DC3 /* TPSocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C0DD361FE2150400249DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C0DD3F1FE2150400249DC3 /* TPSocialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C0DD311FE2150400249DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C0DD161FE2150300249DC3 /* TPSocial */;
+			targetProxy = 30C0DD301FE2150400249DC3 /* PBXContainerItemProxy */;
+		};
+		30C0DD3C1FE2150400249DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C0DD161FE2150300249DC3 /* TPSocial */;
+			targetProxy = 30C0DD3B1FE2150400249DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30C0DD201FE2150300249DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C0DD211FE2150300249DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30C0DD251FE2150300249DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C0DD261FE2150300249DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C0DD411FE2150400249DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30C0DD421FE2150400249DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C0DD441FE2150400249DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA934449F25FA491B1979C3 /* Pods-TPSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30C0DD451FE2150400249DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CE2B56DAFD6D1312D4A986 /* Pods-TPSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30C0DD471FE2150400249DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSocial.app/TPSocial";
+			};
+			name = Debug;
+		};
+		30C0DD481FE2150400249DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSocial.app/TPSocial";
+			};
+			name = Release;
+		};
+		30C0DD4A1FE2150400249DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TPSocial;
+			};
+			name = Debug;
+		};
+		30C0DD4B1FE2150400249DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 753B3ACW59;
+				INFOPLIST_FILE = TPSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.TPSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TPSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C0DD121FE2150300249DC3 /* Build configuration list for PBXProject "TPSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C0DD411FE2150400249DC3 /* Debug */,
+				30C0DD421FE2150400249DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C0DD431FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C0DD441FE2150400249DC3 /* Debug */,
+				30C0DD451FE2150400249DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C0DD461FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C0DD471FE2150400249DC3 /* Debug */,
+				30C0DD481FE2150400249DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C0DD491FE2150400249DC3 /* Build configuration list for PBXNativeTarget "TPSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C0DD4A1FE2150400249DC3 /* Debug */,
+				30C0DD4B1FE2150400249DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C0DD0F1FE2150300249DC3 /* Project object */;
+}
