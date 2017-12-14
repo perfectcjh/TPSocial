@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		30C0DD1C1FE2150300249DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD1B1FE2150300249DC3 /* AppDelegate.m */; };
-		30C0DD1F1FE2150300249DC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD1E1FE2150300249DC3 /* ViewController.m */; };
 		30C0DD221FE2150300249DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD201FE2150300249DC3 /* Main.storyboard */; };
 		30C0DD241FE2150300249DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD231FE2150300249DC3 /* Assets.xcassets */; };
 		30C0DD271FE2150300249DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C0DD251FE2150300249DC3 /* LaunchScreen.storyboard */; };
 		30C0DD2A1FE2150300249DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD291FE2150300249DC3 /* main.m */; };
 		30C0DD341FE2150400249DC3 /* TPSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD331FE2150400249DC3 /* TPSocialTests.m */; };
 		30C0DD3F1FE2150400249DC3 /* TPSocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD3E1FE2150400249DC3 /* TPSocialUITests.m */; };
+		30C0DD4F1FE2284700249DC3 /* TPLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD4D1FE2284700249DC3 /* TPLoginController.m */; };
+		30C0DD541FE2286600249DC3 /* TPShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD521FE2286600249DC3 /* TPShareController.m */; };
+		30C0DD5C1FE24AEC00249DC3 /* TPSocialMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD591FE24AEB00249DC3 /* TPSocialMessageObject.m */; };
+		30C0DD5D1FE24AEC00249DC3 /* TPSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0DD5A1FE24AEC00249DC3 /* TPSocialManager.m */; };
 		E3FC398F00E2511D940BCA85 /* Pods_TPSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35929C588B394322AEEDFDAB /* Pods_TPSocial.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +42,6 @@
 		30C0DD171FE2150300249DC3 /* TPSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C0DD1A1FE2150300249DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30C0DD1B1FE2150300249DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30C0DD1D1FE2150300249DC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30C0DD1E1FE2150300249DC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30C0DD211FE2150300249DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30C0DD231FE2150300249DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C0DD261FE2150300249DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,15 @@
 		30C0DD3A1FE2150400249DC3 /* TPSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C0DD3E1FE2150400249DC3 /* TPSocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSocialUITests.m; sourceTree = "<group>"; };
 		30C0DD401FE2150400249DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C0DD4C1FE2284700249DC3 /* TPLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLoginController.h; sourceTree = "<group>"; };
+		30C0DD4D1FE2284700249DC3 /* TPLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLoginController.m; sourceTree = "<group>"; };
+		30C0DD511FE2286600249DC3 /* TPShareController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPShareController.h; sourceTree = "<group>"; };
+		30C0DD521FE2286600249DC3 /* TPShareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPShareController.m; sourceTree = "<group>"; };
+		30C0DD571FE24AEA00249DC3 /* TPSocialMessageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSocialMessageObject.h; sourceTree = "<group>"; };
+		30C0DD581FE24AEB00249DC3 /* TPSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSocialManager.h; sourceTree = "<group>"; };
+		30C0DD591FE24AEB00249DC3 /* TPSocialMessageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSocialMessageObject.m; sourceTree = "<group>"; };
+		30C0DD5A1FE24AEC00249DC3 /* TPSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSocialManager.m; sourceTree = "<group>"; };
+		30C0DD5B1FE24AEC00249DC3 /* TPSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSocialConfig.h; sourceTree = "<group>"; };
 		35929C588B394322AEEDFDAB /* Pods_TPSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE2B56DAFD6D1312D4A986 /* Pods-TPSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial.release.xcconfig"; sourceTree = "<group>"; };
 		8CA934449F25FA491B1979C3 /* Pods-TPSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPSocial/Pods-TPSocial.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,10 +127,13 @@
 		30C0DD191FE2150300249DC3 /* TPSocial */ = {
 			isa = PBXGroup;
 			children = (
+				30C0DD561FE244A100249DC3 /* TPSocial */,
 				30C0DD1A1FE2150300249DC3 /* AppDelegate.h */,
 				30C0DD1B1FE2150300249DC3 /* AppDelegate.m */,
-				30C0DD1D1FE2150300249DC3 /* ViewController.h */,
-				30C0DD1E1FE2150300249DC3 /* ViewController.m */,
+				30C0DD4C1FE2284700249DC3 /* TPLoginController.h */,
+				30C0DD4D1FE2284700249DC3 /* TPLoginController.m */,
+				30C0DD511FE2286600249DC3 /* TPShareController.h */,
+				30C0DD521FE2286600249DC3 /* TPShareController.m */,
 				30C0DD201FE2150300249DC3 /* Main.storyboard */,
 				30C0DD231FE2150300249DC3 /* Assets.xcassets */,
 				30C0DD251FE2150300249DC3 /* LaunchScreen.storyboard */,
@@ -146,6 +159,18 @@
 				30C0DD401FE2150400249DC3 /* Info.plist */,
 			);
 			path = TPSocialUITests;
+			sourceTree = "<group>";
+		};
+		30C0DD561FE244A100249DC3 /* TPSocial */ = {
+			isa = PBXGroup;
+			children = (
+				30C0DD5B1FE24AEC00249DC3 /* TPSocialConfig.h */,
+				30C0DD581FE24AEB00249DC3 /* TPSocialManager.h */,
+				30C0DD5A1FE24AEC00249DC3 /* TPSocialManager.m */,
+				30C0DD571FE24AEA00249DC3 /* TPSocialMessageObject.h */,
+				30C0DD591FE24AEB00249DC3 /* TPSocialMessageObject.m */,
+			);
+			path = TPSocial;
 			sourceTree = "<group>";
 		};
 		AC56D0AA37CE2FE45D7A3DBB /* Frameworks */ = {
@@ -347,9 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C0DD1F1FE2150300249DC3 /* ViewController.m in Sources */,
+				30C0DD541FE2286600249DC3 /* TPShareController.m in Sources */,
 				30C0DD2A1FE2150300249DC3 /* main.m in Sources */,
+				30C0DD5C1FE24AEC00249DC3 /* TPSocialMessageObject.m in Sources */,
 				30C0DD1C1FE2150300249DC3 /* AppDelegate.m in Sources */,
+				30C0DD5D1FE24AEC00249DC3 /* TPSocialManager.m in Sources */,
+				30C0DD4F1FE2284700249DC3 /* TPLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

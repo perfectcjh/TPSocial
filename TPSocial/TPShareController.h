@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TPShareController.h
 //  TPSocial
 //
 //  Created by Perfectcjh on 2017/12/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TPShareController : UIViewController
 
 @end
-
